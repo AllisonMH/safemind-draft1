@@ -1,0 +1,314 @@
+{
+  "crisis_hotlines": {
+    "united_states": [
+      {
+        "name": "988 Suicide & Crisis Lifeline",
+        "type": "hotline",
+        "phone": "988",
+        "url": "https://988lifeline.org",
+        "description": "Free and confidential support for people in distress, prevention and crisis resources for you or your loved ones.",
+        "available": "24/7",
+        "languages": ["English", "Spanish"],
+        "services": ["phone", "chat", "text"]
+      },
+      {
+        "name": "Crisis Text Line",
+        "type": "text_line",
+        "phone": "741741",
+        "text_keyword": "HOME",
+        "url": "https://www.crisistextline.org",
+        "description": "Free, 24/7 support for those in crisis. Text HOME to 741741 from anywhere in the US.",
+        "available": "24/7",
+        "languages": ["English", "Spanish"],
+        "services": ["text"]
+      },
+      {
+        "name": "Trevor Project (LGBTQ+ Youth)",
+        "type": "hotline",
+        "phone": "1-866-488-7386",
+        "url": "https://www.thetrevorproject.org",
+        "description": "Crisis intervention and suicide prevention for LGBTQ+ young people.",
+        "available": "24/7",
+        "languages": ["English"],
+        "services": ["phone", "chat", "text"],
+        "text_number": "678678"
+      },
+      {
+        "name": "National Domestic Violence Hotline",
+        "type": "hotline",
+        "phone": "1-800-799-7233",
+        "url": "https://www.thehotline.org",
+        "description": "24/7 support for victims of domestic violence.",
+        "available": "24/7",
+        "languages": ["English", "Spanish", "200+ via interpreter"],
+        "services": ["phone", "chat"]
+      },
+      {
+        "name": "National Sexual Assault Hotline",
+        "type": "hotline",
+        "phone": "1-800-656-4673",
+        "url": "https://www.rainn.org",
+        "description": "Free, confidential support for survivors of sexual assault.",
+        "available": "24/7",
+        "languages": ["English", "Spanish"],
+        "services": ["phone", "chat"]
+      },
+      {
+        "name": "SAMHSA National Helpline",
+        "type": "hotline",
+        "phone": "1-800-662-4357",
+        "url": "https://www.samhsa.gov/find-help/national-helpline",
+        "description": "Treatment referral and information service for mental health and substance abuse.",
+        "available": "24/7",
+        "languages": ["English", "Spanish"],
+        "services": ["phone"]
+      }
+    ],
+    "canada": [
+      {
+        "name": "Canada Suicide Prevention Service",
+        "type": "hotline",
+        "phone": "1-833-456-4566",
+        "url": "https://www.crisisservicescanada.ca",
+        "description": "24/7 bilingual crisis support service.",
+        "available": "24/7",
+        "languages": ["English", "French"],
+        "services": ["phone", "text"]
+      },
+      {
+        "name": "Kids Help Phone",
+        "type": "hotline",
+        "phone": "1-800-668-6868",
+        "url": "https://kidshelpphone.ca",
+        "description": "24/7 support for young people in Canada.",
+        "available": "24/7",
+        "languages": ["English", "French"],
+        "services": ["phone", "chat", "text"],
+        "text_keyword": "CONNECT",
+        "text_number": "686868"
+      }
+    ],
+    "united_kingdom": [
+      {
+        "name": "Samaritans",
+        "type": "hotline",
+        "phone": "116 123",
+        "url": "https://www.samaritans.org",
+        "description": "24/7 support for anyone struggling to cope.",
+        "available": "24/7",
+        "languages": ["English"],
+        "services": ["phone", "email"]
+      },
+      {
+        "name": "Childline",
+        "type": "hotline",
+        "phone": "0800 1111",
+        "url": "https://www.childline.org.uk",
+        "description": "Free, confidential service for young people under 19.",
+        "available": "24/7",
+        "languages": ["English"],
+        "services": ["phone", "chat"]
+      }
+    ],
+    "australia": [
+      {
+        "name": "Lifeline Australia",
+        "type": "hotline",
+        "phone": "13 11 14",
+        "url": "https://www.lifeline.org.au",
+        "description": "24/7 crisis support and suicide prevention.",
+        "available": "24/7",
+        "languages": ["English"],
+        "services": ["phone", "chat", "text"]
+      },
+      {
+        "name": "Kids Helpline",
+        "type": "hotline",
+        "phone": "1800 55 1800",
+        "url": "https://kidshelpline.com.au",
+        "description": "Free, private and confidential 24/7 phone and online counselling service for young people aged 5 to 25.",
+        "available": "24/7",
+        "languages": ["English"],
+        "services": ["phone", "chat", "email"]
+      }
+    ],
+    "international": [
+      {
+        "name": "International Association for Suicide Prevention",
+        "type": "directory",
+        "url": "https://www.iasp.info/resources/Crisis_Centres/",
+        "description": "Directory of crisis centers around the world.",
+        "languages": ["Multiple"],
+        "services": ["directory"]
+      },
+      {
+        "name": "Befrienders Worldwide",
+        "type": "directory",
+        "url": "https://www.befrienders.org",
+        "description": "Network of emotional support centers providing help to people in distress worldwide.",
+        "languages": ["Multiple"],
+        "services": ["directory"]
+      }
+    ]
+  },
+  "mental_health_resources": {
+    "youth_focused": [
+      {
+        "name": "JED Foundation",
+        "url": "https://www.jedfoundation.org",
+        "description": "Nonprofit that protects emotional health and prevents suicide for teens and young adults.",
+        "target_age": "13-25"
+      },
+      {
+        "name": "Active Minds",
+        "url": "https://www.activeminds.org",
+        "description": "Mental health awareness and education for young adults.",
+        "target_age": "13-25"
+      },
+      {
+        "name": "The Steve Fund",
+        "url": "https://www.stevefund.org",
+        "description": "Mental health resources for young people of color.",
+        "target_age": "13-25"
+      },
+      {
+        "name": "Teen Line",
+        "url": "https://teenlineonline.org",
+        "phone": "1-800-852-8336",
+        "description": "Teens helping teens. Call or text.",
+        "available": "6 PM - 10 PM PT",
+        "target_age": "13-19"
+      }
+    ],
+    "general": [
+      {
+        "name": "Mental Health America",
+        "url": "https://www.mhanational.org",
+        "description": "Mental health screening tools and resources."
+      },
+      {
+        "name": "National Alliance on Mental Illness (NAMI)",
+        "url": "https://www.nami.org",
+        "description": "Support, education and advocacy for mental health.",
+        "helpline": "1-800-950-6264"
+      },
+      {
+        "name": "Psychology Today Therapist Finder",
+        "url": "https://www.psychologytoday.com/us/therapists",
+        "description": "Find therapists and psychiatrists in your area."
+      }
+    ]
+  },
+  "online_safety_resources": [
+    {
+      "name": "Common Sense Media",
+      "url": "https://www.commonsensemedia.org",
+      "description": "Reviews and advice about media and technology for families."
+    },
+    {
+      "name": "NetSmartz",
+      "url": "https://www.netsmartz.org",
+      "description": "Internet safety education for children and families."
+    },
+    {
+      "name": "Cyberbullying Research Center",
+      "url": "https://cyberbullying.org",
+      "description": "Resources and research on cyberbullying."
+    },
+    {
+      "name": "StopBullying.gov",
+      "url": "https://www.stopbullying.gov",
+      "description": "Federal government resources on bullying prevention."
+    }
+  ],
+  "parent_resources": [
+    {
+      "name": "The Parent Resource Program",
+      "url": "https://www.theparentresourceprogram.org",
+      "description": "Resources for parents on child mental health."
+    },
+    {
+      "name": "Child Mind Institute",
+      "url": "https://childmind.org",
+      "description": "Resources for parents on children's mental health and learning disorders."
+    },
+    {
+      "name": "Parenting for a Digital Future",
+      "url": "https://blogs.lse.ac.uk/parenting4digitalfuture",
+      "description": "Research-based guidance on parenting in a digital age."
+    }
+  ],
+  "emergency_indicators": {
+    "immediate_danger_signs": [
+      "Explicit statements of intent to harm self or others",
+      "Specific plans for suicide",
+      "Access to means (weapons, pills, etc.)",
+      "Recent suicide attempt",
+      "Saying goodbye or giving away possessions",
+      "Sudden mood improvement after depression (may indicate decision made)"
+    ],
+    "high_concern_signs": [
+      "Talking about death or suicide",
+      "Expressing feelings of hopelessness",
+      "Withdrawal from friends and activities",
+      "Changes in sleeping or eating patterns",
+      "Engaging in risky or self-destructive behavior",
+      "Giving away prized possessions",
+      "Saying goodbye to friends and family"
+    ],
+    "warning_signs": [
+      "Persistent sadness or irritability",
+      "Loss of interest in favorite activities",
+      "Changes in school performance",
+      "Difficulty concentrating",
+      "Physical complaints without medical cause",
+      "Increased social isolation"
+    ]
+  },
+  "response_protocols": {
+    "critical": {
+      "timeframe": "immediate (within minutes)",
+      "actions": [
+        "Alert parent/guardian immediately",
+        "Provide crisis hotline numbers",
+        "If explicit threat, consider contacting emergency services (911)",
+        "Do not leave user alone if in-person",
+        "Remove access to means of harm if possible",
+        "Stay with person until help arrives"
+      ]
+    },
+    "high": {
+      "timeframe": "urgent (within 1 hour)",
+      "actions": [
+        "Alert parent/guardian",
+        "Provide mental health resources",
+        "Recommend professional evaluation",
+        "Increase monitoring frequency",
+        "Follow up within 24 hours"
+      ]
+    },
+    "medium": {
+      "timeframe": "soon (within 24 hours)",
+      "actions": [
+        "Notify parent/guardian",
+        "Provide mental health resources",
+        "Suggest increased support",
+        "Continue monitoring"
+      ]
+    },
+    "low": {
+      "timeframe": "routine (within 48-72 hours)",
+      "actions": [
+        "Document concern",
+        "Provide preventive resources",
+        "Monitor for changes"
+      ]
+    }
+  },
+  "legal_disclaimers": {
+    "monitoring_disclosure": "This system monitors AI conversations for safety purposes. Parents/guardians have consented to monitoring on behalf of minors under their care.",
+    "not_medical_advice": "This system provides alerts based on pattern detection and is not a substitute for professional mental health evaluation or treatment.",
+    "confidentiality_limits": "While we strive to protect privacy, confidentiality may be broken when there is imminent risk of harm to self or others, or when required by law.",
+    "professional_consultation": "Always consult with qualified mental health professionals for assessment and treatment recommendations."
+  }
+}
