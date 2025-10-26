@@ -1,6 +1,12 @@
 # SafeMind
 **Youth Guardrails for Artificially Intelligent Spaces**
 
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?logo=github)](https://allisonmh.github.io/safemind-draft1)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](#license)
+[![Node](https://img.shields.io/badge/Node-20%2B-green?logo=node.js)](https://nodejs.org)
+
+🌐 **[View Project Website](https://allisonmh.github.io/safemind-draft1)**
+
 ## Overview
 
 SafeMind is a comprehensive safety monitoring application designed to detect harmful language and unsafe conversational patterns in AI interactions involving youth (ages 17 and younger). The system provides real-time analysis of conversations to identify:
