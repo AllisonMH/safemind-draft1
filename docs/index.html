@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SafeMind - Youth Guardrails for Artificially Intelligent Spaces. Protecting youth in AI conversations through intelligent monitoring and real-time safety analysis.">
+    <meta name="keywords" content="AI safety, youth protection, content moderation, mental health, child safety, AI monitoring">
+    <meta name="author" content="SafeMind Team">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="SafeMind - Youth Guardrails for AI Spaces">
+    <meta property="og:description" content="Protecting youth in AI conversations through intelligent monitoring and real-time safety analysis">
+    <meta property="og:type" content="website">
+
+    <title>SafeMind - Youth Guardrails for AI Spaces</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <span class="logo-icon">🛡️</span>
+                    <span class="logo-text">SafeMind</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="#how-it-works">How It Works</a>
+                    <a href="#goals">Goals</a>
+                    <a href="#technology">Technology</a>
+                    <a href="#get-started">Get Started</a>
+                    <a href="https://github.com/AllisonMH/safemind-draft1" class="btn-github" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z"/>
+                        </svg>
+                        GitHub
+                    </a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">Open Source Youth Safety</div>
+                <h1 class="hero-title">
+                    Youth Guardrails for<br>
+                    <span class="gradient-text">Artificially Intelligent Spaces</span>
+                </h1>
+                <p class="hero-description">
+                    Protecting youth in AI conversations through intelligent monitoring and real-time safety analysis.
+                    Detect harmful language, mental health concerns, and unsafe patterns before they escalate.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#get-started" class="btn btn-primary">Get Started</a>
+                    <a href="https://github.com/AllisonMH/safemind-draft1" class="btn btn-secondary" target="_blank">View on GitHub</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">8+</div>
+                        <div class="stat-label">Detection Categories</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">Real-time</div>
+                        <div class="stat-label">Analysis</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Open Source</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Comprehensive Safety Features</h2>
+                <p class="section-description">
+                    Multi-layered protection using advanced AI and machine learning
+                </p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Multi-Layer Detection</h3>
+                    <p>Combines Perspective API, OpenAI Moderation, and custom ML models for comprehensive analysis</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Real-Time Monitoring</h3>
+                    <p>Analyze conversations as they happen with instant risk assessment and alerts</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Risk Scoring</h3>
+                    <p>Intelligent 0-100 risk scoring algorithm identifies concerning content accurately</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3>Pattern Recognition</h3>
+                    <p>Detect escalation and concerning trends over time in conversations</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔔</div>
+                    <h3>Smart Alerts</h3>
+                    <p>Notify trusted contacts when intervention may be needed with actionable recommendations</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🆘</div>
+                    <h3>Crisis Resources</h3>
+                    <p>Integrated crisis hotlines and mental health resources for immediate help</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Privacy First</h3>
+                    <p>COPPA compliant with encryption, anonymization, and transparent monitoring</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>Mental Health Focus</h3>
+                    <p>Specialized detection for depression, anxiety, and suicidal ideation indicators</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="section how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-description">
+                    A comprehensive approach to youth safety in AI conversations
+                </p>
+            </div>
+
+            <div class="process-flow">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Content Capture</h3>
+                        <p>AI conversation messages are captured and sent for analysis through secure APIs</p>
+                    </div>
+                </div>
+
+                <div class="process-arrow">→</div>
+
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Multi-Layer Analysis</h3>
+                        <p>Text runs through multiple detection layers simultaneously:
+                            <ul>
+                                <li>Perspective API (toxicity, threats)</li>
+                                <li>OpenAI Moderation (self-harm, violence)</li>
+                                <li>Keyword Detection (mental health)</li>
+                                <li>Sentiment Analysis</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="process-arrow">→</div>
+
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Risk Assessment</h3>
+                        <p>Results are weighted and combined into a comprehensive risk score (0-100) with categorization:
+                            <ul>
+                                <li><span class="risk-low">Low (0-40)</span> - Safe content</li>
+                                <li><span class="risk-medium">Medium (40-60)</span> - Monitor</li>
+                                <li><span class="risk-high">High (60-80)</span> - Concerning</li>
+                                <li><span class="risk-critical">Critical (80-100)</span> - Immediate action</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="process-arrow">→</div>
+
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Action & Alert</h3>
+                        <p>Based on risk level, the system:
+                            <ul>
+                                <li>Generates suggested actions</li>
+                                <li>Alerts parents/guardians if needed</li>
+                                <li>Provides crisis resources</li>
+                                <li>Logs for pattern analysis</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="detection-categories">
+                <h3>What We Detect</h3>
+                <div class="categories-grid">
+                    <div class="category">
+                        <span class="category-icon">🚨</span>
+                        <span class="category-name">Self-Harm & Suicide</span>
+                    </div>
+                    <div class="category">
+                        <span class="category-icon">⚔️</span>
+                        <span class="category-name">Violence & Threats</span>
+                    </div>
+                    <div class="category">
+                        <span class="category-icon">💬</span>
+                        <span class="category-name">Hate Speech</span>
+                    </div>
+                    <div class="category">
+                        <span class="category-icon">🔞</span>
+                        <span class="category-name">Sexual Content</span>
+                    </div>
+                    <div class="category">
+                        <span class="category-icon">😔</span>
+                        <span class="category-name">Mental Health Concerns</span>
+                    </div>
+                    <div class="category">
+                        <span class="category-icon">☠️</span>
+                        <span class="category-name">Toxicity</span>
+                    </div>
+                    <div class="category">
+                        <span class="category-icon">👊</span>
+                        <span class="category-name">Bullying & Harassment</span>
+                    </div>
+                    <div class="category">
+                        <span class="category-icon">💊</span>
+                        <span class="category-name">Substance Abuse</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Goals Section -->
+    <section id="goals" class="section goals">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Mission & Goals</h2>
+                <p class="section-description">
+                    Building safer AI spaces for the next generation
+                </p>
+            </div>
+
+            <div class="goals-content">
+                <div class="goal-primary">
+                    <h3>Primary Mission</h3>
+                    <p class="mission-statement">
+                        To protect youth (ages 17 and younger) from harmful content and unsafe interactions
+                        in AI-powered conversations by providing real-time monitoring, intelligent detection,
+                        and immediate intervention capabilities for parents, guardians, and caregivers.
+                    </p>
+                </div>
+
+                <div class="goals-grid">
+                    <div class="goal-card">
+                        <h4>🎯 Early Intervention</h4>
+                        <p>Detect concerning patterns before they escalate, enabling timely support and intervention</p>
+                    </div>
+
+                    <div class="goal-card">
+                        <h4>🤝 Empower Parents</h4>
+                        <p>Give guardians the tools and insights they need to keep youth safe in AI interactions</p>
+                    </div>
+
+                    <div class="goal-card">
+                        <h4>🧠 Mental Health Support</h4>
+                        <p>Identify signs of mental health struggles and connect families with appropriate resources</p>
+                    </div>
+
+                    <div class="goal-card">
+                        <h4>📚 Educate & Inform</h4>
+                        <p>Raise awareness about AI safety and provide guidance on healthy digital interactions</p>
+                    </div>
+
+                    <div class="goal-card">
+                        <h4>🔬 Continuous Improvement</h4>
+                        <p>Evolve detection methods using latest AI research and mental health best practices</p>
+                    </div>
+
+                    <div class="goal-card">
+                        <h4>🌍 Open Source Impact</h4>
+                        <p>Make youth safety technology accessible to all through open-source collaboration</p>
+                    </div>
+                </div>
+
+                <div class="impact-stats">
+                    <h3>Why This Matters</h3>
+                    <div class="stats-row">
+                        <div class="impact-stat">
+                            <div class="impact-number">95%</div>
+                            <div class="impact-label">of teens use smartphones</div>
+                        </div>
+                        <div class="impact-stat">
+                            <div class="impact-number">46%</div>
+                            <div class="impact-label">report cyberbullying</div>
+                        </div>
+                        <div class="impact-stat">
+                            <div class="impact-number">Growing</div>
+                            <div class="impact-label">AI platform usage</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="section technology">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technology Stack</h2>
+                <p class="section-description">
+                    Built with modern, reliable, and proven technologies
+                </p>
+            </div>
+
+            <div class="tech-grid">
+                <div class="tech-category">
+                    <h3>Backend</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">Node.js 20+</div>
+                        <div class="tech-item">TypeScript</div>
+                        <div class="tech-item">Express.js</div>
+                        <div class="tech-item">Zod Validation</div>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Frontend</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">Next.js 14</div>
+                        <div class="tech-item">React 18</div>
+                        <div class="tech-item">TypeScript</div>
+                        <div class="tech-item">Tailwind CSS</div>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3>AI APIs</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">Perspective API</div>
+                        <div class="tech-item">OpenAI Moderation</div>
+                        <div class="tech-item">HuggingFace (optional)</div>
+                        <div class="tech-item">Custom ML Models</div>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Security</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">Helmet.js</div>
+                        <div class="tech-item">CORS Protection</div>
+                        <div class="tech-item">Rate Limiting</div>
+                        <div class="tech-item">Input Validation</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tech-features">
+                <div class="tech-feature">
+                    <h4>🆓 100% Free Tools</h4>
+                    <p>All APIs offer generous free tiers suitable for development and small-scale deployment</p>
+                </div>
+                <div class="tech-feature">
+                    <h4>🚀 Easy Deployment</h4>
+                    <p>Deploy backend to Railway/Render, frontend to Vercel - all with free tiers</p>
+                </div>
+                <div class="tech-feature">
+                    <h4>📦 Monorepo Structure</h4>
+                    <p>Organized codebase with shared types, easy to maintain and extend</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get Started Section -->
+    <section id="get-started" class="section get-started">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get Started</h2>
+                <p class="section-description">
+                    Up and running in 5 minutes
+                </p>
+            </div>
+
+            <div class="quick-start">
+                <div class="quick-start-steps">
+                    <div class="quick-step">
+                        <div class="quick-step-number">1</div>
+                        <div class="quick-step-content">
+                            <h4>Clone the Repository</h4>
+                            <div class="code-block">
+                                <code>git clone https://github.com/AllisonMH/safemind-draft1.git
+cd safemind-draft1</code>
+                                <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quick-step">
+                        <div class="quick-step-number">2</div>
+                        <div class="quick-step-content">
+                            <h4>Run Setup Script</h4>
+                            <div class="code-block">
+                                <code>chmod +x scripts/setup.sh
+./scripts/setup.sh</code>
+                                <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quick-step">
+                        <div class="quick-step-number">3</div>
+                        <div class="quick-step-content">
+                            <h4>Get API Keys (Free)</h4>
+                            <p>
+                                <a href="https://developers.perspectiveapi.com/s/" target="_blank" class="link">Perspective API</a> •
+                                <a href="https://platform.openai.com/signup" target="_blank" class="link">OpenAI API</a>
+                            </p>
+                            <p class="note">Add keys to <code>apps/api/.env</code></p>
+                        </div>
+                    </div>
+
+                    <div class="quick-step">
+                        <div class="quick-step-number">4</div>
+                        <div class="quick-step-content">
+                            <h4>Start Development Servers</h4>
+                            <div class="code-block">
+                                <code># Terminal 1
+npm run dev:api
+
+# Terminal 2
+npm run dev:web</code>
+                                <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quick-step">
+                        <div class="quick-step-number">5</div>
+                        <div class="quick-step-content">
+                            <h4>Open Dashboard</h4>
+                            <p>Visit <a href="http://localhost:3000" class="link">http://localhost:3000</a></p>
+                            <p class="success">✅ You're ready to analyze content!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="documentation-links">
+                    <h3>Documentation</h3>
+                    <div class="doc-links">
+                        <a href="https://github.com/AllisonMH/safemind-draft1/blob/main/QUICK_START.md" class="doc-link" target="_blank">
+                            <span>📄</span>
+                            <div>
+                                <div class="doc-link-title">Quick Start Guide</div>
+                                <div class="doc-link-desc">5-minute setup walkthrough</div>
+                            </div>
+                        </a>
+                        <a href="https://github.com/AllisonMH/safemind-draft1/blob/main/DEVELOPMENT.md" class="doc-link" target="_blank">
+                            <span>💻</span>
+                            <div>
+                                <div class="doc-link-title">Development Guide</div>
+                                <div class="doc-link-desc">Complete development documentation</div>
+                            </div>
+                        </a>
+                        <a href="https://github.com/AllisonMH/safemind-draft1/blob/main/TECHNICAL_RECOMMENDATIONS.md" class="doc-link" target="_blank">
+                            <span>🏗️</span>
+                            <div>
+                                <div class="doc-link-title">Technical Details</div>
+                                <div class="doc-link-desc">Architecture and API information</div>
+                            </div>
+                        </a>
+                        <a href="https://github.com/AllisonMH/safemind-draft1" class="doc-link" target="_blank">
+                            <span>📚</span>
+                            <div>
+                                <div class="doc-link-title">Full Documentation</div>
+                                <div class="doc-link-desc">View all docs on GitHub</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Crisis Resources Section -->
+    <section class="section crisis-resources">
+        <div class="container">
+            <div class="crisis-banner">
+                <h3>🆘 Need Immediate Help?</h3>
+                <p>If you or someone you know is in crisis, please reach out immediately:</p>
+                <div class="crisis-contacts">
+                    <div class="crisis-contact">
+                        <div class="crisis-name">988 Suicide & Crisis Lifeline</div>
+                        <div class="crisis-number">Call or Text: 988</div>
+                        <a href="https://988lifeline.org" target="_blank" class="crisis-link">988lifeline.org</a>
+                    </div>
+                    <div class="crisis-contact">
+                        <div class="crisis-name">Crisis Text Line</div>
+                        <div class="crisis-number">Text HOME to 741741</div>
+                        <a href="https://www.crisistextline.org" target="_blank" class="crisis-link">crisistextline.org</a>
+                    </div>
+                    <div class="crisis-contact">
+                        <div class="crisis-name">Trevor Project (LGBTQ+ Youth)</div>
+                        <div class="crisis-number">1-866-488-7386</div>
+                        <a href="https://www.thetrevorproject.org" target="_blank" class="crisis-link">thetrevorproject.org</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>SafeMind</h4>
+                    <p>Building safer AI spaces for youth, one conversation at a time.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/AllisonMH/safemind-draft1" target="_blank" aria-label="GitHub">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Documentation</h4>
+                    <ul>
+                        <li><a href="https://github.com/AllisonMH/safemind-draft1/blob/main/README.md" target="_blank">README</a></li>
+                        <li><a href="https://github.com/AllisonMH/safemind-draft1/blob/main/QUICK_START.md" target="_blank">Quick Start</a></li>
+                        <li><a href="https://github.com/AllisonMH/safemind-draft1/blob/main/DEVELOPMENT.md" target="_blank">Development Guide</a></li>
+                        <li><a href="https://github.com/AllisonMH/safemind-draft1/blob/main/TECHNICAL_RECOMMENDATIONS.md" target="_blank">Technical Docs</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="https://988lifeline.org" target="_blank">988 Lifeline</a></li>
+                        <li><a href="https://www.crisistextline.org" target="_blank">Crisis Text Line</a></li>
+                        <li><a href="https://www.thetrevorproject.org" target="_blank">Trevor Project</a></li>
+                        <li><a href="https://www.commonsensemedia.org" target="_blank">Common Sense Media</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Project</h4>
+                    <ul>
+                        <li><a href="https://github.com/AllisonMH/safemind-draft1" target="_blank">GitHub Repository</a></li>
+                        <li><a href="https://github.com/AllisonMH/safemind-draft1/issues" target="_blank">Report Issues</a></li>
+                        <li><a href="https://github.com/AllisonMH/safemind-draft1/blob/main/LICENSE" target="_blank">License</a></li>
+                        <li><a href="#get-started">Get Started</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 SafeMind. Open source project for youth safety.</p>
+                <p class="footer-disclaimer">
+                    SafeMind is a monitoring tool, not a replacement for professional mental health services.
+                    In case of emergency, contact 911 or your local emergency services.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

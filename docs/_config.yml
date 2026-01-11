@@ -1,0 +1,29 @@
+# Jekyll configuration for GitHub Pages
+title: SafeMind
+description: Youth Guardrails for Artificially Intelligent Spaces
+author: SafeMind Team
+email: contact@safemind.org
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Exclude from processing
+exclude:
+  - README.md
+  - LICENSE
+  - CNAME
+
+# GitHub Pages specific
+url: "https://allisonmh.github.io"
+baseurl: "/safemind-draft1"
+
+# Social links
+github_username: AllisonMH
+repository: AllisonMH/safemind-draft1
+
+# SEO
+lang: en
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
